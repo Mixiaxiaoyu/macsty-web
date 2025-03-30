@@ -1,0 +1,141 @@
+// developer:B站米夏小雨
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仿Mac设计师作品集网站</title>
+    <!-- 引入图标文件，将 favicon.ico 替换为你的图标文件名 -->
+    <link rel="icon" href="logo-icon/logo-web.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- 顶部菜单 -->
+    <header class="menu">
+        <!-- 添加图标 -->
+        <img src="logo-icon/logo.png" alt="Menu Icon" class="menu-icon"> 
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">PROJECTS</a>
+                    <ul>
+                        <li><a href="proj-work/Studies Collection-Vol.1.25.html" >Studies Collection-Vol.1.25</a></li>
+                        <!-- 添加分割线 -->
+                        <hr class="submenu-divider">
+                        <li><a href="proj-work/photo-work.html">Photo-Work-2025</a></li>
+                                              
+                    </ul>
+                </li>
+                <li>
+                    <a href="about/about.html" >ABOUT</a>
+                </li>
+                <li>
+                    <a href="contact/contact.html" >CONTACT</a>
+                    <!-- 移除子菜单 -->
+                </li>
+            </ul>
+        </nav>
+        <!-- 添加时间显示元素 -->
+        <div id="current-time"></div>
+    </header>
+    <!-- 桌面区域 -->
+    <div class="desktop">
+        <!-- 这里可以添加桌面图标 -->
+        <div class="desktop-icon" data-id="folder1" onclick="openInIframe('win.html?folder=文件夹')">
+            <img src="desktop-icon/Folder__older_version_.png" alt="文件夹图标">
+            <p>文件夹</p>
+        </div>
+        <div class="desktop-icon" data-id="folder1" onclick="openInIframe('win.html?folder=设计资料')">
+            <img src="desktop-icon/folder-Design.png" alt="设计资料图标">
+            <p>设计资料</p>
+        </div>
+        <div class="desktop-icon" data-id="folder1" onclick="openInIframe('win.html?folder=摄影作品')">
+            <img src="desktop-icon/Folder Adobe Photoshop.png" alt="摄影作品图标">
+            <p>摄影作品</p>
+        </div>
+        <div class="desktop-icon" data-id="folder1" onclick="openInIframe('win.html?folder=平面设计')">
+            <img src="desktop-icon/Folder Adobe Illustrator.png" alt="平面设计图标">
+            <p>平面设计</p>
+        </div>
+        <div class="desktop-icon" data-id="document4" onclick="openInIframe('win.html?folder=计划')">
+            <img src="desktop-icon/Note.png" alt="计划图标">
+            <p>计划</p>
+        </div>
+        <div class="desktop-icon" data-id="document5" onclick="openInIframe('win.html?folder=三维设计')">
+            <img src="desktop-icon/Folder Cinema 4D.png" alt="三维设计图标">
+            <p>三维设计</p>
+        </div>
+        <div class="desktop-icon" data-id="document6" onclick="openInIframe('win.html?folder=其他1')">
+            <img src="desktop-icon/文件夹紫色.png" alt="其他图标">
+            <p>其他1</p>
+        </div>
+        <div class="desktop-icon" data-id="document7" onclick="openInIframe('win.html?folder=其他2')">
+            <img src="desktop-icon/文件夹黄色.png" alt="其他1图标">
+            <p>其他2</p>
+        </div>
+        <div class="desktop-icon" data-id="document8" onclick="openInIframe('win.html?folder=生活vlog')">
+            <img src="desktop-icon/Folder Ableton.png" alt="生活vlog图标">
+            <p>生活vlog</p>
+        </div>
+        <!-- 其他图标... -->
+    </div>
+    <!-- 用于加载 win.html 的 iframe -->
+    <iframe id="fileManagerIframe" style="width: 80%; height: 80%; display: none; border: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background-color: transparent;"></iframe>
+    <!-- Dock 栏 -->
+    <div class="dock">
+        <ul>
+            <li>
+                <a href="mailto:2265533569@qq.com" target="_blank">
+                    <img src="dock-icon/em.png" alt="邮件" draggable="true">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.behance.net/mixiaxiaoyu" target="_blank">
+                    <img src="dock-icon/Behance.png" alt="Behance" draggable="true">
+                </a>
+            </li>
+            <li>
+                <a href="https://mxxyart.zcool.com.cn/" target="_blank">
+                    <img src="dock-icon/站酷.png" alt="站酷" draggable="true">
+                </a>
+            </li>
+            <li>
+                <a href="https://space.bilibili.com/27815800" target="_blank">
+                    <img src="dock-icon/b站.png" alt="B站" draggable="true">
+                </a>
+            </li>
+            <li>
+                <a href="weixin://contacts/profile/****" target="_blank">
+                    <img src="desktop-icon/WeChat.png" alt="微信" draggable="true">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 画布容器 -->
+    <div id="canvas-container" style="display: none;">
+        <div id="canvas-header">
+            <span id="close-canvas"></span>
+            <h2>空白画布</h2>
+        </div>
+        <canvas id="blank-canvas"></canvas>
+    </div>
+
+    <!-- 眼睛内容 -->
+    <div class="loader">
+    <!-- 包含眼睛元素的容器 -->
+        <div class="eye">
+        <!-- 一个眼睛元素 -->
+            <div class="pupil"></div>
+        <!-- 眼睛中的瞳孔元素 -->
+        </div>
+        <div class="eye">
+        <!-- 另一个眼睛元素 -->
+            <div class="pupil"></div>
+        <!-- 眼睛中的瞳孔元素 -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

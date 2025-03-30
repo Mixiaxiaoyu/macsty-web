@@ -1,0 +1,82 @@
+// developer:B站米夏小雨
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio win</title>
+    <!-- 引用外部 CSS 文件 -->
+    <link rel="stylesheet" href="win.css">
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="file-manager">
+            <!-- 顶部导航栏 -->
+            <div class="nav-bar">
+                <!-- 这里修改为显示当前文件夹和选中图片名称 -->
+                <span id="current-folder"></span>
+                <span id="selected-image"></span>
+                <!-- 新增关闭按钮，替换为自定义图片 -->
+                <img src="logo-icon/win-x.png" alt="Close Button" class="close-btn" id="close-btn">
+            </div>
+
+            <!-- 主体内容 -->
+            <div class="main-content">
+                <!-- 左侧目录 -->
+                <div class="left-panel">
+                    <div class="folder-item">
+                        <img src="desktop-icon/Note.png" alt="Folder Icon" width="16" height="16">
+                        计划
+                    </div>
+                    <div class="folder-item">
+                        <!-- 替换为自定义图片 -->
+                        <img src="desktop-icon/Folder__older_version_.png" alt="Folder Icon" width="16" height="16">
+                        文件夹
+                    </div>                    
+                    <div class="folder-item">
+                        <img src="desktop-icon/folder-Design.png" alt="Folder Icon" width="16" height="16">
+                        设计资料
+                    </div>
+                    <div class="folder-item">
+                        <img src="desktop-icon/Folder Adobe Photoshop.png" alt="Folder Icon" width="16" height="16">
+                        摄影作品
+                    </div>
+                    <div class="folder-item">
+                        <img src="desktop-icon/Folder Adobe Illustrator.png" alt="Folder Icon" width="16" height="16">
+                        平面设计
+                    </div>
+                    <div class="folder-item">
+                        <img src="desktop-icon/Folder Cinema 4D.png" alt="Folder Icon" width="16" height="16">
+                        三维设计
+                    </div>
+                    <div class="folder-item">
+                        <img src="desktop-icon/Folder Ableton.png" alt="Folder Icon" width="16" height="16">
+                        生活vlog
+                    </div>                  
+                    <div class="folder-item">
+                        <img src="desktop-icon/文件夹紫色.png" alt="Folder Icon" width="16" height="16">
+                        其他1
+                    </div>
+                    <div class="folder-item">
+                        <img src="desktop-icon/文件夹黄色.png" alt="Folder Icon" width="16" height="16">
+                        其他2
+                    </div>    
+                </div>
+
+                <!-- 右侧文件展示 -->
+                <div class="right-panel">
+                </div>
+            </div>
+        </div>
+        <!-- 添加拖动区域 -->
+        <div class="resizer"></div>
+    </div>
+    <!-- 图片放大查看的遮罩层 -->
+    <div class="image-overlay">
+        <img src="" class="enlarged-image">
+    </div>
+    <script src="win.js"></script>
+    
+</body>
+</html>

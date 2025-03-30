@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="text-align: left;">Studies Collection-Vol.1.25</title>
+    <link rel="icon" href="../logo-icon/logo-web.png" type="image/x-icon">
+    <!-- 引入 CSS 文件 -->
+    <link rel="stylesheet" href="pro-styles.css">
+    <style>
+        body {
+            background-color: black;
+            /* 以下代码让内容水平居中 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 给网页左右添加边距 */
+            padding: 0 60px; 
+        }
+        img {
+            border-radius: 10px; /* 设置图片圆角 */
+            /* 修改上下边距为 20px，左右边距为 50px */
+            margin: 20px 100px; 
+            /* 自动缩放图片 */
+            max-width: 100%;
+            height: auto;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <!-- 修改 logo 容器的类名 -->
+    <div class="logo-container">
+        <a href="../index.html">
+            <img src="../logo-icon/logo.png" alt="Logo">
+        </a>
+    </div>
+    <!-- 假设图片在 image 文件夹中 -->
+    <!-- 添加独立模块且左对齐的标题 -->
+    <div class="image-section-title custom-title-1">
+        <h2 class="title-1">Studies Collection-Vol.1.25</h2>
+    </div>
+    <div class="image-section-title custom-title-2">
+        <h2 class="title-2">Through months of exploration, I embraced a journey of discovery with innovative lighting, shading, and on-camera setups.</h2>
+     </div>
+        
+    <!-- 添加 loading="lazy" 属性 -->
+    <img src="image/1.webp" alt="图片1" loading="lazy">
+    <img src="image/2.webp" alt="图片2" loading="lazy">
+    <img src="image/3.webp" alt="图片2" loading="lazy">
+    <img src="image/4.webp" alt="图片2" loading="lazy">
+    <img src="image/5.webp" alt="图片2" loading="lazy">
+    <img src="image/6.webp" alt="图片2" loading="lazy">
+    <img src="image/7.webp" alt="图片2" loading="lazy">
+    <img src="image/8.webp" alt="图片2" loading="lazy">
+    <img src="image/9.webp" alt="图片2" loading="lazy">
+
+    <!-- 可以根据需要添加更多图片 -->
+
+    <!-- SVG 滤镜定义 -->
+    <svg>
+        <filter id="noise-0">
+            <!-- 降低 baseFrequency 让噪波更平滑 -->
+            <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="turbulence"/>
+            <!-- 增大 scale 值让变形幅度更大 -->
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="200" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+        <filter id="noise-1">
+            <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" result="turbulence"/>
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="110" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+        <filter id="noise-2">
+            <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" result="turbulence"/>
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="120" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+        <filter id="noise-3">
+            <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" result="turbulence"/>
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="130" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+        <filter id="noise-4">
+            <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="turbulence"/>
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="140" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+    </svg>
+
+    <!-- 引入 JavaScript 文件 -->
+    <script src="pro-script.js"></script>
+</body>
+</html>
