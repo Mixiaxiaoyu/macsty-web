@@ -12,10 +12,18 @@
 ### All image resources on this website are sourced from the internet. If any infringement is found, please contact us for removal.☎️
 ## 
 
+# ✨网站预览动画
+<img src="./Preview img/Homepage file management.png" alt="" >
+<img src="./Preview img/1.gif" alt="" >
+<img src="./Preview img/2.gif" alt="" >
+<img src="./Preview img/3.gif" alt="" >
+<img src="./Preview img/about.png" alt="" >
+<img src="./Preview img/contact.png" alt="" >
+<img src="./Preview img/4.gif" alt="" >
+<img src="./Preview img/5.gif" alt="" >
+<img src="./Preview img/6.gif" alt="" >
 
-
-
-# 🛠️ 功能说明 Features
+# 🛠️功能说明 Features
 ## Index.html
 此主页面是网站的核心枢纽，集各类信息展示与子级页面导航功能于一体。用户在此既能便捷查看所需信息，又能依据指引轻松跳转至各子级页面📝
 This main page serves as the central hub of the website, integrating both information display and navigation to subpages. Users can conveniently access the information they need here and easily follow the guidance to navigate to various subpages.
@@ -31,6 +39,7 @@ This main page serves as the central hub of the website, integrating both inform
  **网站桌面** Website Desktop
  > 放置各种文件夹，用来存放零散且较新的设计作品📝
  > Displays various folders used to store scattered and recent design works.
+<img src="./Preview img/Homepage file management.png" alt="" >
  
 **网站底部Dock** Website Bottom Dock
  > 放置常规流行平台图标，用来跳转设计师其他平台的主页📝
@@ -45,6 +54,7 @@ This main page serves as the central hub of the website, integrating both inform
 ## 💻项目页面 Project Page
 使用懒加载方式加载作品图片，图片以瀑布流呈现📝
 Images are loaded using lazy loading and presented in a masonry (waterfall) layout.
+<img src="./Preview img/work.png" alt="" >
 
 
 
