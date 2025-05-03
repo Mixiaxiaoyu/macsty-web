@@ -18,28 +18,37 @@
 # 🛠️ 功能说明 Features
 ## Index.html
 此主页面是网站的核心枢纽，集各类信息展示与子级页面导航功能于一体。用户在此既能便捷查看所需信息，又能依据指引轻松跳转至各子级页面。
+This main page serves as the central hub of the website, integrating both information display and navigation to subpages. Users can conveniently access the information they need here and easily follow the guidance to navigate to various subpages.
 
-**网站Logo**
+**网站Logo** Website Logo
+ > 点击logo即可刷新页面📝
+ > Click the logo to refresh the page.
 
- > 点击logo即可刷新页面
+**网站菜单栏** Website Menu Bar
+ > 跳转二级页面，访问工作室项目/工作室介绍/合作联系📝
+ > Navigate to secondary pages, including Studio Projects / Studio Introduction / Contact & Collaboration.
 
-**网站菜单栏**
- > 跳转二级页面，访问工作室项目/工作室介绍/合作联系
-
- **网站桌面**
- > 放置各种文件夹，用来存放零散且较新的设计作品
+ **网站桌面** Website Desktop
+ > 放置各种文件夹，用来存放零散且较新的设计作品📝
+ > Displays various folders used to store scattered and recent design works.
  
-**网站底部Dock**
- > 放置常规流行平台图标，用来跳转设计师其他平台的主页
+**网站底部Dock** Website Bottom Dock
+ > 放置常规流行平台图标，用来跳转设计师其他平台的主页📝
+ > Contains icons of popular platforms, linking to the designer’s other social profiles.
 
-## 桌面
- 1.  Dock图标支持用户拖拽排序
- 2. 桌面图标打开时，会出现在Dock，关闭时会从Dock移除
- 3. 点击桌面图标，以文件管理器方式打开内容
- 4. 用户在0.5秒内改变浏览器窗口位置/大小，就会触发桌面图标掉落，点击菜单栏Logo恢复
+## 🖥桌面 Desktop Features
+ 1.  Dock图标支持用户拖拽排序📝Dock icons can be dragged and reordered by the user.
+ 2. 桌面图标打开时，会出现在Dock，关闭时会从Dock移除📝When a desktop icon is opened, it appears in the Dock; when closed, it is removed.
+ 3. 点击桌面图标，以文件管理器方式打开内容📝Clicking a desktop icon opens its contents in a file-manager-like window.
+ 4. 用户在0.5秒内改变浏览器窗口位置/大小，就会触发桌面图标掉落，点击菜单栏Logo恢复📝If the user changes the browser window’s position or size within 0.5 seconds, the desktop icons will “fall”; clicking the menu bar logo restores them.
 
-## 项目页面
-使用懒加载方式加载作品图片，图片以瀑布流呈现
+## 💻项目页面 Project Page
+使用懒加载方式加载作品图片，图片以瀑布流呈现📝
+Images are loaded using lazy loading and presented in a masonry (waterfall) layout.
+
+
+
+
 
 
 
