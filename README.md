@@ -1,4 +1,4 @@
-### 👑直接Fork本项目到你的仓库，然后进行你自己的资料替换，当然你需要优化部分代码，使用了后别忘了给我Starred和准寻开源许可👀
+### 👑直接Fork本项目到你的仓库，然后进行你自己的资料替换，当然你需要优化部分代码，使用了后别忘了给我Starred和遵循许开源许可👀
 ### 👑Feel free to fork this project to your own repository and replace the content with your own materials. Of course, you’re encouraged to optimize parts of the code as needed. If you find it useful, don’t forget to give it a star and make sure to follow the open-source license.👀
 # 
 # 🎨仿Mac简约风设计师艺术作品集网站
