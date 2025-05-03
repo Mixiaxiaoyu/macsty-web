@@ -8,7 +8,7 @@
 #### 本作品集网站，其创意源自苹果电脑的经典桌面风格。整体设计遵循简约直接的原则，旨在让用户能够以最直观、高效的方式浏览作品。整个网站将完全采用纯 HTML、CSS 和 JavaScript 进行编写，在保证代码简洁、纯净的同时，确保作品展示的流畅性与专业性。通过这种技术实现方式，既能精准还原苹果电脑桌面那种简洁而不失优雅的视觉效果，又能为用户带来流畅、舒适的浏览体验，让作品成为网站的核心焦点，展现出独特的魅力。
 #### This portfolio website draws its inspiration from the classic desktop style of Apple computers. The overall design follows a minimalist and straightforward approach, aiming to provide users with the most intuitive and efficient way to browse the works. The entire site is built using pure HTML, CSS, and JavaScript, ensuring clean and concise code while maintaining smooth and professional presentation. This technical implementation faithfully recreates the elegance and simplicity of the Apple desktop aesthetic, delivering a seamless and pleasant browsing experience. It places the spotlight firmly on the work itself, highlighting its unique charm.
 ## 
-### 📞本网站所有图片资源均来自网络，如有侵权请联系删除
+### 📞本网站所有图片资源均来自网络，如有侵权请联系删除📧
 ### All image resources on this website are sourced from the internet. If any infringement is found, please contact us for removal.☎️
 ## 
 
@@ -17,7 +17,7 @@
 
 # 🛠️ 功能说明 Features
 ## Index.html
-此主页面是网站的核心枢纽，集各类信息展示与子级页面导航功能于一体。用户在此既能便捷查看所需信息，又能依据指引轻松跳转至各子级页面。
+此主页面是网站的核心枢纽，集各类信息展示与子级页面导航功能于一体。用户在此既能便捷查看所需信息，又能依据指引轻松跳转至各子级页面📝
 This main page serves as the central hub of the website, integrating both information display and navigation to subpages. Users can conveniently access the information they need here and easily follow the guidance to navigate to various subpages.
 
 **网站Logo** Website Logo
